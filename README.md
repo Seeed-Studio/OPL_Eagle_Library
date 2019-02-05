@@ -1,6 +1,6 @@
 # Seeed Fusion PCBA Open Parts Library: Component Library for Autodesk Eagle
 
-The Seeed Fusion Open Parts Libraries (OPL) and the associated component libraries are provided and maintained by the [Seeed Studio Fusion](https://www.seeedstudio.com/fusion.html) team and the wider community for the turnkey [Seeed Fusion PCB Assembly (PCBA) Service](https://www.seeedstudio.com/prototype-pcb-assembly.html). The OPL is a catalog of over 10,000 locally sourced components that can reduce costs and cut the production time of turnkey PCB assembly to just 7 working days. Find out more about the [Seeed Fusion PCBA service](https://www.seeedstudio.com/fusion.html). The catalog of available parts can be found [here](https://www.seeedstudio.com/opl.html).
+The Seeed Fusion Open Parts Libraries (OPL) and the associated component libraries are provided and maintained by the <b>[Seeed Studio Fusion](https://www.seeedstudio.com/fusion.html)</b> team and the wider community for the turnkey <b>[Seeed Fusion PCB Assembly (PCBA) Service](https://www.seeedstudio.com/prototype-pcb-assembly.html)</b>. The OPL is a catalog of over 10,000 locally sourced components that can reduce costs and cut the production time of turnkey PCB assembly to just 7 working days. Find out more about the <b>[Seeed Fusion PCBA service](https://www.seeedstudio.com/fusion.html)</b>. The catalog of available parts can be found <b>[here](https://www.seeedstudio.com/opl.html)</b>.
 
 To accelerate PCB design and make it much more convenient, Seeed Fusion has provided these component libraries for Eagle and KiCad. Prepared and scrutinized by our own engineers, these footprints can save you hours of design time and minimize potential production errors, so you can get on with PCB design with peace of mind. 
 
@@ -8,7 +8,7 @@ To accelerate PCB design and make it much more convenient, Seeed Fusion has prov
 
 ![](https://blog.seeedstudio.com/wp-content/uploads/2018/12/1200_628-facebook-ad-copy.png)
 
-As of last December, the [OPL has expanded](http://www.seeedstudio.com/blog/2018/12/04/just-what-you-wanted-for-xmas-introducing-the-new-shenzhen-open-parts-library-with-over-10000-parts/) from 800 components to more than 10,000 with the introduction of the new Shenzhen OPL. The original Seeed OPL is a catalog of components from Seeed’s own inventory, we have the parts and, we have been using them in our own production processes for years. The Shenzhen OPL contains parts from Shenzhen’s biggest components distributor that Seeed can quickly order for turnkey PCBA. While the sources are different, both can be used together with the Seeed Fusion PCBA service and reduce the production time to 7 days.
+As of last December, the <b>[OPL has expanded](http://www.seeedstudio.com/blog/2018/12/04/just-what-you-wanted-for-xmas-introducing-the-new-shenzhen-open-parts-library-with-over-10000-parts/)</b> from 800 components to more than 10,000 with the introduction of the new Shenzhen OPL. The original Seeed OPL is a catalog of components from Seeed’s own inventory, we have the parts and, we have been using them in our own production processes for years. The Shenzhen OPL contains parts from Shenzhen’s biggest components distributor that Seeed can quickly order for turnkey PCBA. While the sources are different, both can be used together with the Seeed Fusion PCBA service and reduce the production time to 7 days.
 
 But with all the new components and many more to come, we don’t have enough resources to create the footprints for all of them. So, we are asking for help from you and the wider community to gradually build-up the library with us. As more and more users utilize the OPL and update the component libraries, the better the library will become for everyone. 
 
@@ -26,11 +26,11 @@ For consistency and ease of use, we would greatly appreciate it if everyone foll
 -	For MPN specific footprints, please follow the existing footprint naming convention for the footprint and name the corresponding schematic symbol with the manufacturer part number.
 
 ### Notes:
-- These libaries are available within Eagle! Navigate to the Library Manager and select the Available tab to download the latest version. Please make sure you delete any previous versions of the libraries prior to the 2018 update and make sure libraries are up-to-date. The latest versions follow the naming format "OPL_xxx..." We cannot provide any guarantees on outdated libraries.
+- These libaries are available within Eagle! Navigate to the <b><i>Library Manager</b></i> and select the <b><i>Available</i></b> tab to download the latest version. Please make sure you delete any previous versions of the libraries prior to the 2018 update and make sure libraries are up-to-date. The latest versions follow the naming <b>"OPL_xxx..."</b> We cannot provide any guarantees on outdated libraries.
 -	The Seeed OPL component libraries have been updated to match the Shenzhen OPL categories to aid in merging the two libraries. Some components will have moved to new homes, but this has not been updated on the website OPL library yet. We will update this soon!
 -	Unlike previous versions, we have uploaded the files individually as opposed to a whole zip file. We hope this will help you follow standard GitHub workflow to contribute changes. (Thanks for your feedback!)
 
-There is a lot to consider in managing a large library like this, so we would greatly appreciate any ideas and feedback regarding how we can make the library more user-friendly. We’ll be monitoring the discussion section and the designated OPL section in our forums. You are also welcome to let us know by [e-mail](mailto:fusion@seeed.cc).
+There is a lot to consider in managing a large library like this, so we would greatly appreciate any ideas and feedback regarding how we can make the library more user-friendly. We’ll be monitoring the discussion section and the designated OPL section in our forums. You are also welcome to let us know by <b>[e-mail](mailto:fusion@seeed.cc)</b>.
 
 We hope the new maintained library will prove to be an invaluable resource to all of our PCBA users and beyond.
 
