@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -184,64 +184,14 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <library>
+<description>&lt;b&gt;Seeed Open Parts Library (OPL) for the Seeed Fusion PCB Assembly Service
+&lt;br&gt;&lt;br&gt;
+&lt;a href="https://www.seeedstudio.com/opl.html" title="https://www.seeedstudio.com/opl.html"&gt;Seeed Fusion PCBA OPL&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://www.seeedstudio.com/fusion_pcb.html"&gt;Order PCB/PCBA&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+&lt;a href="https://www.seeedstudio.com"&gt;www.seeedstudio.com&lt;/a&gt;
+&lt;br&gt;&lt;/b&gt;</description>
 <packages>
-<package name="SMD-2P-L6.0XW6.0XH3.0MM">
-<description>06 for width 6.0mm ,30 for height 3.0mm</description>
-<wire x1="3" y1="1.7" x2="3" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="3" y1="-2.5" x2="2.5" y2="-3" width="0.127" layer="21" curve="-90"/>
-<wire x1="2.5" y1="-3" x2="-2.5" y2="-3" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-3" x2="-3" y2="-2.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-3" y1="2.5" x2="-2.5" y2="3" width="0.127" layer="21" curve="-90"/>
-<wire x1="-2.5" y1="3" x2="2.5" y2="3" width="0.127" layer="21"/>
-<wire x1="2.5" y1="3" x2="3" y2="2.5" width="0.127" layer="21" curve="-90"/>
-<smd name="1" x="-2.85" y="0" dx="3.2" dy="2.5" layer="1" rot="R90"/>
-<smd name="2" x="2.85" y="0" dx="3.2" dy="2.5" layer="1" rot="R90"/>
-<text x="-3.175" y="3.302" size="0.889" layer="25" ratio="11">&gt;NAME</text>
-<text x="-3.175" y="-4.191" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
-<rectangle x1="-3" y1="-3" x2="3" y2="3" layer="39"/>
-<wire x1="3" y1="2.5" x2="3" y2="1.7" width="0.127" layer="51"/>
-<wire x1="3" y1="2.5" x2="3" y2="1.7" width="0.127" layer="21"/>
-<wire x1="3" y1="-2.5" x2="3" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-3" y1="-2.5" x2="-3" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-3" y1="2.5" x2="-3" y2="1.7" width="0.127" layer="21"/>
-</package>
-<package name="L0805">
-<wire x1="1.651" y1="0.889" x2="1.651" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="1.651" y1="-0.889" x2="-1.651" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="-1.651" y1="-0.889" x2="-1.651" y2="0.889" width="0.127" layer="21"/>
-<wire x1="-1.651" y1="0.889" x2="1.651" y2="0.889" width="0.127" layer="21"/>
-<smd name="1" x="-0.889" y="0" dx="1.016" dy="1.397" layer="1" roundness="25"/>
-<smd name="2" x="0.889" y="0" dx="1.016" dy="1.397" layer="1" roundness="25"/>
-<text x="-1.905" y="1.143" size="0.889" layer="25" font="vector" ratio="11">&gt;NAME</text>
-<text x="-1.905" y="-2.032" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
-<rectangle x1="-1.4605" y1="-0.762" x2="1.4605" y2="0.762" layer="39"/>
-</package>
-<package name="L0402">
-<smd name="1" x="-0.4625" y="0" dx="0.5" dy="0.5" layer="1" roundness="50"/>
-<smd name="2" x="0.4625" y="0" dx="0.5" dy="0.5" layer="1" roundness="50"/>
-<text x="-1.27" y="0.635" size="0.889" layer="25" ratio="11">&gt;NAME</text>
-<text x="-1.27" y="-1.524" size="0.889" layer="27" font="vector" ratio="11">&gt;VALUE</text>
-<wire x1="0.712" y1="0.3945" x2="0.839" y2="0.2675" width="0.0762" layer="21" curve="-90"/>
-<wire x1="0.839" y1="0.2675" x2="0.839" y2="-0.2675" width="0.0762" layer="21"/>
-<wire x1="0.839" y1="-0.2675" x2="0.712" y2="-0.3945" width="0.0762" layer="21" curve="-90"/>
-<wire x1="0.712" y1="-0.3945" x2="-0.712" y2="-0.3945" width="0.0762" layer="21"/>
-<wire x1="-0.712" y1="-0.3945" x2="-0.839" y2="-0.2675" width="0.0762" layer="21" curve="-90"/>
-<wire x1="-0.839" y1="-0.2675" x2="-0.839" y2="0.2675" width="0.0762" layer="21"/>
-<wire x1="-0.839" y1="0.2675" x2="-0.712" y2="0.3945" width="0.0762" layer="21" curve="-90"/>
-<wire x1="-0.712" y1="0.3945" x2="0.712" y2="0.3945" width="0.0762" layer="21"/>
-</package>
-<package name="L0603">
-<wire x1="-1.397" y1="0.635" x2="1.397" y2="0.635" width="0.127" layer="21"/>
-<wire x1="1.397" y1="0.635" x2="1.397" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="1.397" y1="-0.635" x2="-1.397" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-1.397" y1="-0.635" x2="-1.397" y2="0.635" width="0.127" layer="21"/>
-<smd name="1" x="-0.762" y="0" dx="0.889" dy="0.889" layer="1" roundness="25"/>
-<smd name="2" x="0.762" y="0" dx="0.889" dy="0.889" layer="1" roundness="25"/>
-<text x="-1.905" y="0.889" size="0.889" layer="25" ratio="11">&gt;NAME</text>
-<text x="-1.905" y="-1.7145" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
-</package>
-<package name="L0806">
+<package name="L0806" urn="urn:adsk.eagle:footprint:8004594/1">
 <description>&lt;b&gt;datasheet:&lt;br&gt;
 &lt;u&gt;http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0075S0103LQH2MC_02.pdf</description>
 <wire x1="1.651" y1="1.016" x2="1.651" y2="-1.016" width="0.127" layer="21"/>
@@ -257,7 +207,21 @@
 <text x="-1.27" y="-0.635" size="0.635" layer="33" font="vector" ratio="10">&gt;NAME</text>
 <rectangle x1="-1.4605" y1="-0.762" x2="1.4605" y2="0.762" layer="39"/>
 </package>
-<package name="L5040S">
+<package name="L0402" urn="urn:adsk.eagle:footprint:8004599/1">
+<smd name="1" x="-0.4625" y="0" dx="0.5" dy="0.5" layer="1" roundness="50"/>
+<smd name="2" x="0.4625" y="0" dx="0.5" dy="0.5" layer="1" roundness="50"/>
+<text x="-1.27" y="0.635" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.27" y="-1.524" size="0.889" layer="27" font="vector" ratio="11">&gt;VALUE</text>
+<wire x1="0.712" y1="0.3945" x2="0.839" y2="0.2675" width="0.0762" layer="21" curve="-90"/>
+<wire x1="0.839" y1="0.2675" x2="0.839" y2="-0.2675" width="0.0762" layer="21"/>
+<wire x1="0.839" y1="-0.2675" x2="0.712" y2="-0.3945" width="0.0762" layer="21" curve="-90"/>
+<wire x1="0.712" y1="-0.3945" x2="-0.712" y2="-0.3945" width="0.0762" layer="21"/>
+<wire x1="-0.712" y1="-0.3945" x2="-0.839" y2="-0.2675" width="0.0762" layer="21" curve="-90"/>
+<wire x1="-0.839" y1="-0.2675" x2="-0.839" y2="0.2675" width="0.0762" layer="21"/>
+<wire x1="-0.839" y1="0.2675" x2="-0.712" y2="0.3945" width="0.0762" layer="21" curve="-90"/>
+<wire x1="-0.712" y1="0.3945" x2="0.712" y2="0.3945" width="0.0762" layer="21"/>
+</package>
+<package name="L5040S" urn="urn:adsk.eagle:footprint:8004592/1">
 <smd name="1" x="0" y="2.175" dx="4.2" dy="1.7" layer="1"/>
 <smd name="2" x="0" y="-2.175" dx="4.2" dy="1.7" layer="1"/>
 <wire x1="-1.223609375" y1="-2.5" x2="1.285975" y2="-2.5" width="0.127" layer="21"/>
@@ -272,9 +236,86 @@
 <text x="-1.905" y="0" size="0.635" layer="27" ratio="11">&gt;VALUE</text>
 <rectangle x1="-2.54" y1="-2.54" x2="2.54" y2="2.54" layer="39"/>
 </package>
+<package name="L0603" urn="urn:adsk.eagle:footprint:8004597/1">
+<wire x1="-1.397" y1="0.635" x2="1.397" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.397" y1="0.635" x2="1.397" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.397" y1="-0.635" x2="-1.397" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-1.397" y1="-0.635" x2="-1.397" y2="0.635" width="0.127" layer="21"/>
+<smd name="1" x="-0.762" y="0" dx="0.889" dy="0.889" layer="1" roundness="25"/>
+<smd name="2" x="0.762" y="0" dx="0.889" dy="0.889" layer="1" roundness="25"/>
+<text x="-1.905" y="0.889" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.905" y="-1.7145" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+</package>
+<package name="SMD-2P-L6.0XW6.0XH3.0MM" urn="urn:adsk.eagle:footprint:8004602/1">
+<description>06 for width 6.0mm ,30 for height 3.0mm</description>
+<wire x1="3" y1="1.7" x2="3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="3" y1="-2.5" x2="2.5" y2="-3" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.5" y1="-3" x2="-2.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3" x2="-3" y2="-2.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="2.5" x2="-2.5" y2="3" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.5" y1="3" x2="2.5" y2="3" width="0.127" layer="21"/>
+<wire x1="2.5" y1="3" x2="3" y2="2.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="3" y1="2.5" x2="3" y2="1.7" width="0.127" layer="51"/>
+<wire x1="3" y1="2.5" x2="3" y2="1.7" width="0.127" layer="21"/>
+<wire x1="3" y1="-2.5" x2="3" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-3" y1="-2.5" x2="-3" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-3" y1="2.5" x2="-3" y2="1.7" width="0.127" layer="21"/>
+<smd name="1" x="-2.85" y="0" dx="3.2" dy="2.5" layer="1" rot="R90"/>
+<smd name="2" x="2.85" y="0" dx="3.2" dy="2.5" layer="1" rot="R90"/>
+<text x="-3.175" y="3.302" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-3.175" y="-4.191" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+<rectangle x1="-3" y1="-3" x2="3" y2="3" layer="39"/>
+</package>
+<package name="L0805" urn="urn:adsk.eagle:footprint:8004601/1">
+<wire x1="1.651" y1="0.889" x2="1.651" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="1.651" y1="-0.889" x2="-1.651" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="-1.651" y1="-0.889" x2="-1.651" y2="0.889" width="0.127" layer="21"/>
+<wire x1="-1.651" y1="0.889" x2="1.651" y2="0.889" width="0.127" layer="21"/>
+<smd name="1" x="-0.889" y="0" dx="1.016" dy="1.397" layer="1" roundness="25"/>
+<smd name="2" x="0.889" y="0" dx="1.016" dy="1.397" layer="1" roundness="25"/>
+<text x="-1.905" y="1.143" size="0.889" layer="25" font="vector" ratio="11">&gt;NAME</text>
+<text x="-1.905" y="-2.032" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+<rectangle x1="-1.4605" y1="-0.762" x2="1.4605" y2="0.762" layer="39"/>
+</package>
 </packages>
+<packages3d>
+<package3d name="L0806" urn="urn:adsk.eagle:package:8004620/1" type="box">
+<description>&lt;b&gt;datasheet:&lt;br&gt;
+&lt;u&gt;http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0075S0103LQH2MC_02.pdf</description>
+<packageinstances>
+<packageinstance name="L0806"/>
+</packageinstances>
+</package3d>
+<package3d name="L0402" urn="urn:adsk.eagle:package:8004623/1" type="box">
+<packageinstances>
+<packageinstance name="L0402"/>
+</packageinstances>
+</package3d>
+<package3d name="L5040S" urn="urn:adsk.eagle:package:8004619/1" type="box">
+<packageinstances>
+<packageinstance name="L5040S"/>
+</packageinstances>
+</package3d>
+<package3d name="L0603" urn="urn:adsk.eagle:package:8004622/1" type="box">
+<packageinstances>
+<packageinstance name="L0603"/>
+</packageinstances>
+</package3d>
+<package3d name="SMD-2P-L6.0XW6.0XH3.0MM" urn="urn:adsk.eagle:package:8004625/1" type="box">
+<description>06 for width 6.0mm ,30 for height 3.0mm</description>
+<packageinstances>
+<packageinstance name="SMD-2P-L6.0XW6.0XH3.0MM"/>
+</packageinstances>
+</package3d>
+<package3d name="L0805" urn="urn:adsk.eagle:package:8004624/1" type="box">
+<packageinstances>
+<packageinstance name="L0805"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="SMD-INDUCTOR-10UH-20%(2P-6X6MM)">
+<symbol name="SMD-INDUCTOR-10UH-225MA-10%(0806)" urn="urn:adsk.eagle:symbol:8004609/1">
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -284,7 +325,7 @@
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="SMD-FERRITE-BEAD-470R-2A(0805)">
+<symbol name="SMD-INDUCTOR-4.7NH-0.3NH-300MA(0402)" urn="urn:adsk.eagle:symbol:8004612/1">
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -294,7 +335,7 @@
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="SMD-INDUCTOR-4.7NH-0.3NH-300MA(0402)">
+<symbol name="INDUCTOR/FERRITE-BEAD" urn="urn:adsk.eagle:symbol:8004610/1">
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -304,7 +345,7 @@
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="INDUCTOR/FERRITE-BEAD">
+<symbol name="SMD-INDUCTOR-10UH-20%(2P-6X6MM)" urn="urn:adsk.eagle:symbol:8004615/1">
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -314,7 +355,7 @@
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="SMD-INDUCTOR-10UH-225MA-10%(0806)">
+<symbol name="SMD-INDUCTOR-2.2UH-20%-1.2A(0805)" urn="urn:adsk.eagle:symbol:8004604/1">
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -324,7 +365,7 @@
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="SMD-FERRITE-BEAD-330R-1500MA(0805)">
+<symbol name="SMD-FERRITE-CHIP-120-OHM-500MA(0603)" urn="urn:adsk.eagle:symbol:8004605/1">
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -334,7 +375,7 @@
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="SMD-FERRITE-CHIP-120-OHM-500MA(0603)">
+<symbol name="SMD-FERRITE-BEAD-330R-1500MA(0805)" urn="urn:adsk.eagle:symbol:8004606/1">
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -344,7 +385,7 @@
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="SMD-INDUCTOR-2.2UH-20%-1.2A(0805)">
+<symbol name="SMD-FERRITE-BEAD-470R-2A(0805)" urn="urn:adsk.eagle:symbol:8004613/1">
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -356,27 +397,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SMD-FERRITE-BEAD-470R-2A(0805)" prefix="L" uservalue="yes">
-<description>303030008</description>
-<gates>
-<gate name="L" symbol="SMD-FERRITE-BEAD-470R-2A(0805)" x="0" y="0"/>
-</gates>
-<devices>
-<device name="'0805'" package="L0805">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="WLB2012-471T20" constant="no"/>
-<attribute name="VALUE" value="470R-2A"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SMD-FERRITE-BEAD-2500R-50MA(0603)" prefix="L" uservalue="yes">
+<deviceset name="SMD-FERRITE-BEAD-2500R-50MA(0603)" urn="urn:adsk.eagle:component:8004632/1" prefix="L" uservalue="yes">
 <description>303030020</description>
 <gates>
 <gate name="G$1" symbol="INDUCTOR/FERRITE-BEAD" x="0" y="0"/>
@@ -387,6 +408,9 @@
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8004622/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="VALUE" value="2500R-50MA" constant="no"/>
@@ -395,27 +419,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SMD-FERRITE-BEAD-330R-1500MA(0805)" prefix="L" uservalue="yes">
-<description>303030006</description>
-<gates>
-<gate name="L" symbol="SMD-FERRITE-BEAD-330R-1500MA(0805)" x="0" y="0"/>
-</gates>
-<devices>
-<device name="'0805'" package="L0805">
-<connects>
-<connect gate="L" pin="1" pad="1"/>
-<connect gate="L" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="BLM21PG331SN1D" constant="no"/>
-<attribute name="VALUE" value="330R-1500MA"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SMD-FERRITE-CHIP-120-OHM-500MA(0603)" prefix="L" uservalue="yes">
+<deviceset name="SMD-FERRITE-CHIP-120-OHM-500MA(0603)" urn="urn:adsk.eagle:component:8004629/1" prefix="L" uservalue="yes">
 <description>303030001</description>
 <gates>
 <gate name="L" symbol="SMD-FERRITE-CHIP-120-OHM-500MA(0603)" x="0" y="0"/>
@@ -426,6 +430,9 @@
 <connect gate="L" pin="1" pad="1"/>
 <connect gate="L" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8004622/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MPN" value="BLM18AG121SN1D" constant="no"/>
@@ -435,7 +442,65 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="SMD-FERRITE-BEAD-470R-2A(0805)" urn="urn:adsk.eagle:component:8004634/1" prefix="L" uservalue="yes">
+<description>303030008</description>
+<gates>
+<gate name="L" symbol="SMD-FERRITE-BEAD-470R-2A(0805)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="'0805'" package="L0805">
+<connects>
+<connect gate="L" pin="1" pad="1"/>
+<connect gate="L" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8004624/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="WLB2012-471T20" constant="no"/>
+<attribute name="VALUE" value="470R-2A"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMD-FERRITE-BEAD-330R-1500MA(0805)" urn="urn:adsk.eagle:component:8004630/1" prefix="L" uservalue="yes">
+<description>303030006</description>
+<gates>
+<gate name="L" symbol="SMD-FERRITE-BEAD-330R-1500MA(0805)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="'0805'" package="L0805">
+<connects>
+<connect gate="L" pin="1" pad="1"/>
+<connect gate="L" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8004624/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="BLM21PG331SN1D" constant="no"/>
+<attribute name="VALUE" value="330R-1500MA"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
