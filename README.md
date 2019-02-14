@@ -16,6 +16,10 @@ But with all the new components and many more to come, we don’t have enough re
 
 To assist with the process, we have designated a team of engineers to maintain the library and GitHub repositories. They will also help draw some footprints and connect schematic symbols. But while our engineers do their best to check each footprint, with the sheer number of components, it is inevitable that some errors will be present. It is unavoidable. So to make up for it, Seeed Fusion has introduced a re-manufacture promise: If an error in the library requires the boards to be re-manufactured, then we will re-manufacture the corrected boards for you for free. By using this library, you accept this potential risk.
 
+## OPL Excel Spreadsheet
+
+Due to popular demand, we have released the spreadsheet of all the OPL components and it is now available in the repository. We have also performed some keyword translations so you don't have to learn Chinese to use the Shenzhen OPL. While we have carefully selected these keywords, there may be some errors as a result of bulk translation so please exercise caution. We will implement these translations on the website in future but in the meantime, please refer to the spreadsheet if you are having trouble.
+
 ## Footprint Design Guidelines
 It is still early days, and we have a lot of catching up to do. So, the most important additions at this stage are unique symbols and footprints and any generic footprints that are missing. Part-specific symbols that use generic footprints and slight variations of generic footprints can be added later.
 
