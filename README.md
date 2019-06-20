@@ -14,7 +14,9 @@ But with all the new components and many more to come, we don’t have enough re
 
 ![](https://gallery.mailchimp.com/0c272aa6642cc5d058579205f/images/33be2dbe-deda-4706-a83a-a15d25ab8264.png)
 
-To assist with the process, we have designated a team of engineers to maintain the library and GitHub repositories. They will also help draw some footprints and connect schematic symbols. But while our engineers do their best to check each footprint, with the sheer number of components, it is inevitable that some errors will be present. It is unavoidable. So to make up for it, Seeed Fusion has introduced a re-manufacture promise: If an error in the library requires the boards to be re-manufactured, then we will re-manufacture the corrected boards for you for free. By using this library, you accept this potential risk.
+To assist with the process, we have designated a team of engineers to maintain the library and GitHub repositories. They will also help draw some footprints and connect schematic symbols. But while our engineers do their best to check each footprint, with the sheer number of components, it is inevitable that some errors will be present. It is unavoidable. So to make up for it, Seeed Fusion has introduced a re-manufacture promise: If an error in the library requires the boards to be re-manufactured, then we will re-manufacture the corrected boards for you for free*. By using this library, you accept this potential risk and the subsequent delays.
+
+<b>*To qualify for the free re-manufacture promise, you must be using the latest version of the library.</b>
 
 ## OPL Excel Spreadsheet
 
