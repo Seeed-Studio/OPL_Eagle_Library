@@ -1380,7 +1380,7 @@ type 0204, grid 5 mm</description>
 </devices>
 </deviceset>
 <deviceset name="SMD-RES-22R-5%-1/10W(0603)" urn="urn:adsk.eagle:component:8005107/1" prefix="R" uservalue="yes">
-<description>301012113</description>
+<description>301010289</description>
 <gates>
 <gate name="G$1" symbol="RES" x="0" y="0"/>
 </gates>
