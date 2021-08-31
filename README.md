@@ -32,7 +32,7 @@ For consistency and ease of use, we would greatly appreciate it if everyone foll
 -	For MPN specific footprints, please follow the existing footprint naming convention for the footprint and name the corresponding schematic symbol with the manufacturer part number.
 
 ### Notes:
-- These libaries are available within Eagle! Navigate to the <b><i>Library Manager</b></i> and select the <b><i>Available</i></b> tab to download the latest version. Please make sure you delete any previous versions of the libraries prior to the 2018 update and make sure libraries are up-to-date. The latest versions follow the naming format: <b>"OPL_xxx..."</b> We cannot provide any guarantees on outdated libraries.
+- These libraries are available within Eagle! Navigate to the <b><i>Library Manager</b></i> and select the <b><i>Available</i></b> tab to download the latest version. Please make sure you delete any previous versions of the libraries prior to the 2018 update and make sure libraries are up-to-date. The latest versions follow the naming format: <b>"OPL_xxx..."</b> We cannot provide any guarantees on outdated libraries.
 -	The Seeed OPL component libraries have been updated to match the Shenzhen OPL categories to aid in merging the two libraries. Some components will have moved to new homes, but this has not been updated on the website OPL library yet. We will update this soon!
 -	Unlike previous versions, we have uploaded the files individually as opposed to a whole zip file. We hope this will help you follow standard GitHub workflow to contribute changes. (Thanks for your feedback!)
 
